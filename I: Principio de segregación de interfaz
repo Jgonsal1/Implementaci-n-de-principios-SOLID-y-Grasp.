@@ -1,0 +1,16 @@
+class IShape:
+    def draw(self):
+        raise NotImplementedError
+
+class Volar(IShape):
+    def draw(self):
+        pass
+
+class Comer(IShape):
+    def draw(self):
+        pass
+
+class Nadar(IShape):
+    def draw(self):
+        pass
+        
